@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${young_serif.variable} ${outfit.variable}`}>
-      <body className="bg-fem-stone-100">{children}</body>
+      <body className="bg-fem-stone-100 font-outfit text-base">{children}</body>
     </html>
   )
 }
