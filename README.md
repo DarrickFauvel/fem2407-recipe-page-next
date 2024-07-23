@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Recipe page solution
 
-## Getting Started
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the page at any screen size
+
+### Screenshot
+
+mobile<br>
+<img src="https://github.com/DarrickFauvel/fem2407-blog-preview-card-next/blob/main/screenshot-mobile.png?raw=true" width="200" />
+<br>
+desktop<br>
+<img src="https://github.com/DarrickFauvel/fem2407-blog-preview-card-next/blob/main/screenshot-desktop.png?raw=true" width="400" />
+
+### Links
+
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-html-sass-grid-and-vite-bPAyz8cJe](https://www.frontendmentor.io/solutions/single-price-grid-component-html-sass-grid-and-vite-bPAyz8cJe)
+- Live Site URL: [https://fem2407-blog-preview-card-next.vercel.app/](https://fem2407-blog-preview-card-next.vercel.app/)
+
+## My process
+
+### Built with
+
+- Mobile-first workflow
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
+
+### What I learned
+
+I learned how to apply the projects design system into CSS custom properties and make them accessible via Tailwind CSS.
+
+Here's an example:
+
+```css
+/* global.css */
+:root {
+  --color-fem-rose-800: #7a284e;
+  --color-fem-rose-50: #fff7fb;
+  --color-fem-stone-900: #312e2c;
+  --color-fem-stone-600: #5f564d;
+  --color-fem-stone-150: #e3ddd7;
+  --color-fem-stone-100: #f3e5d7;
+  --color-fem-brown-800: #854632;
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```javascript
+// tailwind.config.ts
+const config: Config = {
+  theme: {
+    extend: {
+      colors: {
+        ["fem-rose-800"]: "var(--color-fem-rose-800)",
+        ["fem-rose-50"]: "var(--color-fem-rose-50)",
+        ["fem-stone-900"]: "var(--color-fem-stone-900)",
+        ["fem-stone-600"]: "var(--color-fem-stone-600)",
+        ["fem-stone-150"]: "var(--color-fem-stone-150)",
+        ["fem-stone-100"]: "var(--color-fem-stone-100)",
+        ["fem-brown-800"]: "var(--color-fem-brown-800)",
+      },
+    },
+  },
+}
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This extends the CSS variables to the Tailwind autocomplete system. For example, the Rose 800 color is available via `text-fem-rose-800` and `bg-fem-rose-800`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Continued development
 
-## Learn More
+I may use a food API to render many reaL-world recipes.
 
-To learn more about Next.js, take a look at the following resources:
+### Useful resources
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Tailwind CSS - Using CSS variables](https://tailwindcss.com/docs/customizing-colors#using-css-variables) - This helped me learn about using CSS variables with Tailwind.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Frontend Mentor - [@DarrickFauvel](https://www.frontendmentor.io/profile/DarrickFauvel)
+- LinkedIn - [Darrick Fauvel](https://www.linkedin.com/in/darrickfauvel/)
