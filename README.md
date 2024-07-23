@@ -26,15 +26,18 @@ Users should be able to:
 ### Screenshot
 
 mobile<br>
-<img src="https://github.com/DarrickFauvel/fem2407-blog-preview-card-next/blob/main/screenshot-mobile.png?raw=true" width="200" />
+<img src="https://github.com/DarrickFauvel/fem2407-recipe-page-next/blob/main/screenshot-mobile.png?raw=true" width="200" />
+<br>
+tablet<br>
+<img src="https://github.com/DarrickFauvel/fem2407-recipe-page-next/blob/main/screenshot-tablet.png?raw=true" width="300" />
 <br>
 desktop<br>
-<img src="https://github.com/DarrickFauvel/fem2407-blog-preview-card-next/blob/main/screenshot-desktop.png?raw=true" width="400" />
+<img src="https://github.com/DarrickFauvel/fem2407-recipe-page-next/blob/main/screenshot-desktop.png?raw=true" width="400" />
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-html-sass-grid-and-vite-bPAyz8cJe](https://www.frontendmentor.io/solutions/single-price-grid-component-html-sass-grid-and-vite-bPAyz8cJe)
-- Live Site URL: [https://fem2407-blog-preview-card-next.vercel.app/](https://fem2407-blog-preview-card-next.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/recipe-page---tailwind-css-typescript-nextjs--TMBigTnNj](https://www.frontendmentor.io/solutions/recipe-page---tailwind-css-typescript-nextjs--TMBigTnNj)
+- Live Site URL: [https://fem2407-recipe-page-next.vercel.app/](https://fem2407-recipe-page-next.vercel.app/)
 
 ## My process
 
