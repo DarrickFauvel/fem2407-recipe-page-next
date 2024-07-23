@@ -12,7 +12,7 @@ const Recipe = () => {
         <RecipeImage />
       </div>
       <div className="flex flex-col gap-8 px-8 py-10">
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col">
           <RecipeTitle>Simple Omelette Recipe</RecipeTitle>
           <p>
             An easy and quick dish, perfect for any meal. This classic omelette
@@ -22,9 +22,23 @@ const Recipe = () => {
         </div>
 
         <RecipePreparation />
-        <RecipeIngredients />
-        <RecipeInstructions />
-        <RecipeNutrition />
+        <table>
+          <tr className="border-t-0 border-r-0 border-l-0 border-b-[1px] border-b-fem-stone-150">
+            <td className="py-6">
+              <RecipeIngredients />
+            </td>
+          </tr>
+          <tr className="border-t-0 border-r-0 border-l-0 border-b-[1px]">
+            <td className="py-6">
+              <RecipeInstructions />
+            </td>
+          </tr>
+          <tr>
+            <td className="py-6">
+              <RecipeNutrition />
+            </td>
+          </tr>
+        </table>
       </div>
     </article>
   )
