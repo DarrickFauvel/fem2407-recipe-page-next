@@ -7,7 +7,7 @@ import RecipeTitle from "./components/title"
 
 const Recipe = () => {
   return (
-    <article className="flex flex-col w-full bg-white sm:rounded-3xl">
+    <article className="group flex flex-col w-full max-w-[736px] bg-white sm:rounded-3xl">
       <div className="sm:px-10 sm:pt-10">
         <RecipeImage />
       </div>
