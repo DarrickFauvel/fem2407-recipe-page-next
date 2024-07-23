@@ -8,7 +8,7 @@ import RecipeTitle from "./components/title"
 const Recipe = () => {
   return (
     <article className="flex flex-col w-full bg-white sm:rounded-3xl">
-      <div className="">
+      <div className="sm:px-10 sm:pt-10">
         <RecipeImage />
       </div>
       <div className="flex flex-col gap-8 px-8 py-10">
