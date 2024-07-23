@@ -8,6 +8,7 @@ export default function Home() {
     <main className="relative flex min-h-screen flex-col items-center sm:p-32 text-fem-stone-600">
       <HiddenH1 />
       <Recipe />
+      <Attribution />
     </main>
   )
 }
