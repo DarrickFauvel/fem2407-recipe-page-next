@@ -1,9 +1,10 @@
+import RecipeTitleLevel2 from "../title-level2"
+
 const RecipeNutrition = () => {
   return (
     <div className="flex flex-col gap-4">
-      <h3 className="text-fem-brown-800 text-3xl font-young-serif leading-none">
-        Nutrition
-      </h3>
+      <RecipeTitleLevel2>Nutrition</RecipeTitleLevel2>
+
       <p>
         The table below shows nutritional values per serving without the
         additional fillings.

@@ -1,9 +1,10 @@
+import RecipeTitleLevel2 from "../title-level2"
+
 const RecipeInstructions = () => {
   return (
     <div className="flex flex-col gap-4">
-      <h3 className="text-fem-brown-800 text-3xl font-young-serif leading-none">
-        Instructions
-      </h3>
+      <RecipeTitleLevel2>Instructions</RecipeTitleLevel2>
+
       <ul className="flex flex-col gap-2 pl-6 list-decimal marker:font-bold marker:text-fem-brown-800">
         <li className="pl-4">
           <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch
