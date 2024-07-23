@@ -5,7 +5,7 @@ import Attribution from "./components/attribution"
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center sm:p-32 text-fem-stone-600">
+    <main className="relative flex min-h-screen flex-col items-center sm:p-10 text-fem-stone-600">
       <HiddenH1 />
       <Recipe />
       <Attribution />
