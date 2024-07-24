@@ -6,7 +6,7 @@ type RecipeTitleProps = {
 
 const RecipeTitleLevel2 = ({ children }: RecipeTitleProps) => {
   return (
-    <h3 className="text-fem-brown-800 text-3xl font-young-serif leading-none">
+    <h3 className="text-fem-brown-800 text-[28px] font-young-serif leading-none">
       {children}
     </h3>
   )
